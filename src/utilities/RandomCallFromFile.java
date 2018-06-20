@@ -24,9 +24,15 @@ public class RandomCallFromFile {
             System.exit(-1);
         }
         
+        int numOfStudentsAtOneTime = 1;
+        
+        if (args.length > 1) {
+            numOfStudentsAtOneTime = Integer.parseInt(args[1]);
+        }
+        
         String studentFileName = args[0];
         
-        for (int i = 0; i < 3;i++) {
+        for (int i = 0; i < numOfStudentsAtOneTime;i++) {
             System.out.println("Call:"+ getRandomlySelectedStudent(studentFileName));    
         }
         
