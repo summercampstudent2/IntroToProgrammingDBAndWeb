@@ -7,8 +7,8 @@
 4. You will need to make a change in your workspace configuration to change the Git source from location "git@github.com:summercampteacher1/IntroToProgrammingDBAndWeb.git" to "git@github.com:<your_github_account>/IntroToProgrammingDBAndWeb.git"
 5. Once you make this change, restart your workspace and check after restart that the workspace configuration reflects the change to the url that you made.
 6. Before you can commit to your Github repository, three additional steps are needed.
-   i) Under Profile ==> Preferences ==> Git ==> Commiter, populate Name with your name and email with your email
-   ii)Under Profile ==> Preferences ==> SSH ==> VCS, click on Generate Key button and enter github.com in the hostname. When you click OK, an SSH key will generated. Click the View button and then the Copy to Clipboard button to copy the public SSH key just generated.
-   iii) At github.com, after logging in, go to Settings ==> SSH and GPG keys. Click New SSH Key. Set title to 'che' and paste in the copied public key into the key field and then press Add SSH key button.
+   - Under Profile ==> Preferences ==> Git ==> Commiter, populate Name with your name and email with your email
+   - Under Profile ==> Preferences ==> SSH ==> VCS, click on Generate Key button and enter github.com in the hostname. When you click OK, an SSH key will generated. Click the View button and then the Copy to Clipboard button to copy the public SSH key just generated.
+   - At github.com, after logging in, go to Settings ==> SSH and GPG keys. Click New SSH Key. Set title to 'che' and paste in the copied public key into the key field and then press Add SSH key button.
    
 
