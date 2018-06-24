@@ -1,9 +1,9 @@
 package examples.class1;
 
 /**
+ * This is a simple class to demonstrate a standalone Java application
  * @author SummerCamp Teacher1
  * @version 1.0
- * This is a simple class to demonstrate a standalone Java application
  */
 
 public class HelloWorld {

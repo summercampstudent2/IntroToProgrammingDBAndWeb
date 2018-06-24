@@ -1,9 +1,9 @@
 package examples.class1;
 
 /**
+ * This class demonstrates range for some of the Java primitive datatypes
  * @author SummerCamp Teacher1
  * @version 1.0
- * This class demonstrates range for some of the Java primitive datatypes
  */
 
 public class JavaDataTypes {
